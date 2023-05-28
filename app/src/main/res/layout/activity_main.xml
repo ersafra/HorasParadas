@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.ersafra.horaparada.MainActivity">
+
+    <Button
+        android:id="@+id/btnDados1"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton.Icon"
+        android:layout_width="379dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:onClick="abreTelaCalculo"
+        android:text="dados do caminhão"
+        android:textSize="12sp"
+        ads:icon="@drawable/ic_info"
+        ads:iconGravity="start"
+        ads:iconPadding="8dp"
+        ads:layout_constraintStart_toStartOf="parent"
+        ads:layout_constraintTop_toBottomOf="@+id/btnInss"
+        ads:strokeColor="@color/common_google_signin_btn_text_dark_disabled"
+        ads:strokeWidth="3dp" />
+
+    <Button
+        android:id="@+id/btnCalculo"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton.Icon"
+        android:layout_width="379dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:onClick="abreTelaCalculo"
+        android:text="Diarias"
+        android:textSize="12sp"
+        ads:icon="@drawable/ic_calculate"
+        ads:iconGravity="start"
+        ads:iconPadding="8dp"
+        ads:layout_constraintStart_toStartOf="parent"
+        ads:layout_constraintTop_toBottomOf="@+id/txt_data"
+        app:strokeColor="@color/common_google_signin_btn_text_dark_disabled"
+        app:strokeWidth="3dp" />
+
+    <Button
+        android:id="@+id/btnCubagem"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton.Icon"
+        android:layout_width="379dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:onClick="abreTelaCalculo"
+        android:text="Cubagem"
+        android:textSize="11sp"
+        ads:icon="@drawable/ic_menu_24"
+        ads:iconGravity="start"
+        ads:iconPadding="8dp"
+        ads:layout_constraintStart_toStartOf="parent"
+        ads:layout_constraintTop_toBottomOf="@+id/btnCalculo"
+        app:strokeColor="@color/common_google_signin_btn_text_dark_disabled"
+        app:strokeWidth="3dp" />
+
+    <Button
+        android:id="@+id/btnInss"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton.Icon"
+        android:layout_width="379dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:onClick="abreTelaCalculo"
+        android:text="INSS"
+        android:textSize="12sp"
+        ads:icon="@drawable/ic_money"
+        ads:iconGravity="start"
+        ads:iconPadding="8dp"
+        ads:layout_constraintStart_toStartOf="parent"
+        ads:layout_constraintTop_toBottomOf="@+id/btnCubagem"
+        app:strokeColor="@color/common_google_signin_btn_text_dark_disabled"
+        app:strokeWidth="3dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:layout_marginTop="16dp"
+        ads:layout_constraintBottom_toTopOf="@+id/txt_data"
+        ads:layout_constraintEnd_toEndOf="parent"
+        ads:layout_constraintStart_toStartOf="parent"
+        ads:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/icone" />
+
+    <TextView
+        android:id="@+id/txt_data"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="@string/titulo"
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        ads:layout_constraintEnd_toEndOf="parent"
+        ads:layout_constraintStart_toStartOf="parent"
+        ads:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="#EA0D0D"
+        ads:adSize="LARGE_BANNER"
+        ads:adUnitId="ca-app-pub-2741955499317480/3945590659"
+        ads:layout_constraintEnd_toEndOf="parent"
+        ads:layout_constraintStart_toStartOf="parent"
+        ads:layout_constraintTop_toBottomOf="@+id/btnDados1">
+    </com.google.android.gms.ads.AdView>
+</androidx.constraintlayout.widget.ConstraintLayout>
+

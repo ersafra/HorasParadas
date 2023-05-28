@@ -1,0 +1,48 @@
+<resources>
+    <item name="timer" type="id" />
+    <string name="app_name">Hora Parada</string>
+    <string name="txtData">"De acordo com o § 5o do Art. 11 da Lei 11.442/07,
+                 alterado pela lei 13.103/2015."</string>
+    <string name="txtCalc">Capacidade em toneladas.</string>
+    <string name="txtVtotal">O valor da indenização é referente a quantidade de horas paradas a partir da 5º hora , respeitando a regra (cap. x Nhoras x 2,12).</string>
+    <string name="hello_world">Tabela de Peso Veiculos, Lei 1234/2022</string>
+    <string name="cftitulo">Como Calcular</string>
+    <string name="cf1">1º - Preencha o campo <b>Capacidade do veículo</b> com o máximo de peso que seu caminhão pode levar, o sistema não aceita número quebrado (12,3), somente números inteiros (12).</string>
+    <string name="cf2">2º - Clique no botão  <b>Buscar Data</b>, aparecerão duas caixas. Na primeira, você deve colocar a data em que chegou no cliente para carregar ou descarregar e, na segunda tela, a hora em que você chegou. O sistema tem como data final o dia e hora em que você está realizando o cálculo, portanto, essa data é automática. A quantidade de horas será transformada em minutos, afinal tempo é dinheiro.</string>
+    <string name="cf3">3º - Vai aparecer logo abaixo do botão <b>Calcular</b> a data e hora da chegada. Clicando em <b>Calcular</b>, você verá um breve anúncio (isso ajuda a manter o app) assim que fechar voce tera acesso à aba com os contatos de Sindicados distribuidos pelo Brasil.</string>
+    <string name="cf4">4º- Basta escolher um que lhe agrada e dará inicio a uma conversa via whatsapp .</string>
+    <string name="cf5">* O app <b>®Hora Parada</b> e seu criador <b>Edson Safra</b> não tem participação ou vínculo com nenhum dos sindicados mencionados na plataforma, apenas auxiliando no cálculo dos valores devidos confome a lei  vigente, sendo isentos de responsabilidades de acordos entre o motorista e o sindicato.</string>
+    <string name="logo2">Para saber mais sobre a lei do motorista, leia em:\n https://www.cobli.co/blog/lei-do-motorista-descanso"</string>
+    <string name="txt9">Data da chegada</string>
+    <string name="txt10">Resultado da Pesquisa</string>
+    <string name="txt11">Chegada na empresa:</string>
+    <string name="txt12">Descarga na empresa:</string>
+    <string name="txt13">O periodo apurado foi de:</string>
+    <string name="txt14">com valor de R$ 2,12 (0,0354 por minuto) a hora x Capacidade maxima de carga do veiculo </string>
+    <string name="txt15">O valor a receber é de :</string>
+    <string name="trtxt">Resultado Apurado </string>
+    <string name="comprimento">Comprimento(m)</string>
+    <string name="altura">Altura(m)</string>
+    <string name="largura">Largura(m)</string>
+    <string name="quandidate">Quantidade(un)</string>
+    <string name="dados">calcular</string>
+    <string name="calcular">fechar</string>
+    <string name="error_string">Obrigatório.</string>
+    <string name="titulo">Cálculos Para o Transportador Autônomo</string>
+    <string name="baca">Base de Calculo - Valor do Frete</string>
+    <string name="spinner_title">Selecione a Tabela::</string>
+    <string name="selected_item">Selecionou:</string>
+    <string name="ccd">Total = (CCD R$*Km)+(CC))</string>
+    <string name="title_home">ANTT</string>
+    <string name="title_dashboard">CUBAGEM</string>
+    <string name="title_notifications">INSS</string>
+    <string name="title_profile">DIARIAS</string>
+    <string name="banner_ad">BANNER AD</string>
+    <string name="banner_ad_unit_id">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="tonkey">Capacidade de carga</string>
+    <string name="palkey">Capacidade de Paletes</string>
+    <string name="gravar">Gravar</string>
+    <string name="preco">Valor pago</string>
+    <string name="pesofisico">Peso Fisico</string>
+
+</resources>

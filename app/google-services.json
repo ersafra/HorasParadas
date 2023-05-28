@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "912520536220",
+    "project_id": "horaparada",
+    "storage_bucket": "horaparada.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:912520536220:android:219fe878ebf30fa8354d59",
+        "android_client_info": {
+          "package_name": "com.ersafra.horaparada"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "912520536220-lmmua9ltdunolnefli1p429av3sff12p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyChy5mAS3Rh7JoowKMZuknv3VWYKYBdYvw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "912520536220-lmmua9ltdunolnefli1p429av3sff12p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
