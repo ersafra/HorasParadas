@@ -73,7 +73,7 @@ class TelaDiarias : AppCompatActivity() {
 
     private fun calcularDiaria() {
         //editar quando mudar os valores
-        val hantt = 2.12
+        val hantt = 2.21
         val valvha = hantt / 60
         val diadiv = "0,0354"
         //fim da edição
